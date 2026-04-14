@@ -8,8 +8,7 @@ const shop = useShopStore();
 <template>
   <nav class="navbar">
     <div class="logo">
-      <img src="/logo.png" alt="Yufor uz" @error="(e) => (e.target.style.display = 'none')" />
-      <span v-if="!hasLogo">Yufor uz</span>
+      <span>Yufor uz</span>
     </div>
     <div class="cart-btn" @click="shop.toggleCart">
       <ShoppingCart :size="24" />
