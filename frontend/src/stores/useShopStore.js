@@ -8,7 +8,7 @@ export const useShopStore = defineStore('shop', {
         name: 'Tibbiy Forma (Med 1)',
         price: 250000,
         description: 'Tibbiyot xodimlari uchun qulay va sifatli forma.',
-        images: ['assets/med_1.jpg'],
+        images: ['/assets/med_1.jpg'],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
         category: 'Med'
       },
@@ -17,7 +17,7 @@ export const useShopStore = defineStore('shop', {
         name: 'Hamshira Formasi (1)',
         price: 260000,
         description: 'Hamshiralar uchun maxsus dizayndagi qulay forma.',
-        images: ['assets/hamshira_1.jpg'],
+        images: ['/assets/hamshira_1.jpg'],
         sizes: ['S', 'M', 'L', 'XL'],
         category: 'Hamshira'
       },
@@ -26,7 +26,7 @@ export const useShopStore = defineStore('shop', {
         name: 'Tibbiy Forma (Med 2)',
         price: 270000,
         description: 'Ergonomik dizayn va nafas oluvchi mato.',
-        images: ['assets/med_2.jpg'],
+        images: ['/assets/med_2.jpg'],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
         category: 'Med'
       },
@@ -35,7 +35,7 @@ export const useShopStore = defineStore('shop', {
         name: 'Hamshira Formasi (2)',
         price: 280000,
         description: 'Premium sifatli hamshira formasi.',
-        images: ['assets/hamshira_2.jpg'],
+        images: ['/assets/hamshira_2.jpg'],
         sizes: ['S', 'M', 'L', 'XL'],
         category: 'Hamshira'
       },
@@ -44,7 +44,7 @@ export const useShopStore = defineStore('shop', {
         name: 'Shifokor Formasi (Doctor 1)',
         price: 350000,
         description: 'Shifokorlar uchun professional ko\'rinishdagi forma.',
-        images: ['assets/doctor_1.jpg'],
+        images: ['/assets/doctor_1.jpg'],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
         category: 'Doctor'
       },
@@ -53,7 +53,7 @@ export const useShopStore = defineStore('shop', {
         name: 'Shifokor Formasi (Doctor 2)',
         price: 360000,
         description: 'Premium shifokor formasi.',
-        images: ['assets/doctor_2.jpg'],
+        images: ['/assets/doctor_2.jpg'],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
         category: 'Doctor'
       }
