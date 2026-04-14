@@ -55,3 +55,4 @@ Mini Appni GitHub Pages ga bepul joylashtirish mumkin.
 
 ---
 Yaratuvchi: **Antigravity (Google DeepMind)**
+# yufor-uz
