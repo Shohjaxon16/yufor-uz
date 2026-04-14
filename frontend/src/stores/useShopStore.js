@@ -9,8 +9,7 @@ export const useShopStore = defineStore('shop', {
         price: 250000,
         description: 'Yuqori sifatli matodan tayyorlangan, namlikni yaxshi o\'tkazuvchi va qulay tibbiy forma. Hamshira va shifokorlar uchun ideal tanlov.',
         images: [
-          '/assets/medical_scrubs_blue.png',
-          '/assets/medical_scrubs_blue_2.png' // Placeholder for second image
+          'assets/medical_scrubs_blue.png'
         ],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
         category: 'Forma'
@@ -21,7 +20,7 @@ export const useShopStore = defineStore('shop', {
         price: 300000,
         description: 'Klassik oq rangli, professional dizayndagi tibbiy xalat. Kirga chidamli va dazmollash oson.',
         images: [
-          '/assets/lab_coat_modern.png'
+          'assets/lab_coat_modern.png'
         ],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
         category: 'Xalat'
@@ -32,7 +31,7 @@ export const useShopStore = defineStore('shop', {
         price: 350000,
         description: 'Eksklyuziv matodan tikilgan, zamonaviy bichimli premium tibbiy forma. Maksimal qulaylik va professional ko\'rinishni ta\'minlaydi.',
         images: [
-          '/assets/medical_scrubs_white_premium.png'
+          'assets/medical_scrubs_white_premium.png'
         ],
         sizes: ['S', 'M', 'L', 'XL'],
         category: 'Forma'
