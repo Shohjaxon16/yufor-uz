@@ -5,36 +5,57 @@ export const useShopStore = defineStore('shop', {
     products: [
       {
         id: 1,
-        name: 'Tibbiy Forma (Och ko\'k)',
+        name: 'Tibbiy Forma (Med 1)',
         price: 250000,
-        description: 'Yuqori sifatli matodan tayyorlangan, namlikni yaxshi o\'tkazuvchi va qulay tibbiy forma. Hamshira va shifokorlar uchun ideal tanlov.',
-        images: [
-          'assets/medical_scrubs_blue.png'
-        ],
+        description: 'Tibbiyot xodimlari uchun qulay va sifatli forma.',
+        images: ['assets/med_1.jpg'],
         sizes: ['S', 'M', 'L', 'XL', '2XL'],
-        category: 'Forma'
+        category: 'Med'
       },
       {
         id: 2,
-        name: 'Tibbiy Xalat (Oq)',
-        price: 300000,
-        description: 'Klassik oq rangli, professional dizayndagi tibbiy xalat. Kirga chidamli va dazmollash oson.',
-        images: [
-          'assets/lab_coat_modern.png'
-        ],
-        sizes: ['S', 'M', 'L', 'XL', '2XL'],
-        category: 'Xalat'
+        name: 'Hamshira Formasi (1)',
+        price: 260000,
+        description: 'Hamshiralar uchun maxsus dizayndagi qulay forma.',
+        images: ['assets/hamshira_1.jpg'],
+        sizes: ['S', 'M', 'L', 'XL'],
+        category: 'Hamshira'
       },
       {
         id: 3,
-        name: 'Tibbiy Forma (Premium Oq)',
-        price: 350000,
-        description: 'Eksklyuziv matodan tikilgan, zamonaviy bichimli premium tibbiy forma. Maksimal qulaylik va professional ko\'rinishni ta\'minlaydi.',
-        images: [
-          'assets/medical_scrubs_white_premium.png'
-        ],
+        name: 'Tibbiy Forma (Med 2)',
+        price: 270000,
+        description: 'Ergonomik dizayn va nafas oluvchi mato.',
+        images: ['assets/med_2.jpg'],
+        sizes: ['S', 'M', 'L', 'XL', '2XL'],
+        category: 'Med'
+      },
+      {
+        id: 4,
+        name: 'Hamshira Formasi (2)',
+        price: 280000,
+        description: 'Premium sifatli hamshira formasi.',
+        images: ['assets/hamshira_2.jpg'],
         sizes: ['S', 'M', 'L', 'XL'],
-        category: 'Forma'
+        category: 'Hamshira'
+      },
+      {
+        id: 5,
+        name: 'Shifokor Formasi (Doctor 1)',
+        price: 350000,
+        description: 'Shifokorlar uchun professional ko\'rinishdagi forma.',
+        images: ['assets/doctor_1.jpg'],
+        sizes: ['S', 'M', 'L', 'XL', '2XL'],
+        category: 'Doctor'
+      },
+      {
+        id: 6,
+        name: 'Shifokor Formasi (Doctor 2)',
+        price: 360000,
+        description: 'Premium shifokor formasi.',
+        images: ['assets/doctor_2.jpg'],
+        sizes: ['S', 'M', 'L', 'XL', '2XL'],
+        category: 'Doctor'
       }
     ],
     cart: [],
